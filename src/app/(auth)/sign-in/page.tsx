@@ -1,9 +1,6 @@
 import { auth } from "@/lib/auth";
 import { GithubSignIn } from "@/components/github-sign-in";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { executeAction } from "@/lib/executeAction";
-import { signIn } from "next-auth/react";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { GoogleSignIn } from "@/components/google-sign-in";
